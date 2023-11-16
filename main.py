@@ -1,6 +1,29 @@
-a = 1.5
-b = 1.5
-c = 2.5
-qaz = a + b + c
-if qaz >= 2:
-    print(qaz)
+x = 38
+print('здравствуйте!')
+if x < 0:
+    print('меньше нуля')
+    print('досвидания!')
+print('<------->')
+a, b = 10, 5
+if a > b:
+    print('a > b')
+if a > b and a > 0:
+    print('успех')
+if (a > b) and (a > 0 or b < 1000):
+    print('успех')
+if 5 < b and b < 10:
+    print('успех')
+print('<------->')
+if '34' > '123':
+    print('успех')
+if '123' > '12':
+    print('успех')
+if [1, 2] > [1, 1]:
+    print('успех')
+print('<------->')
+if '6' > 5:
+    print('успех')
+if [5, 6] > 5:
+    print('успех')
+if '6' != 5:
+    print('успех')
